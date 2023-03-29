@@ -3,7 +3,7 @@
 body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
-    color: darkblue;
+    color: aqua;
 }
 
 ul {
@@ -54,7 +54,42 @@ header nav p {
     text-align: center;
 }
 
-.header-content h1 {
+.header-content h1{
     margin-bottom: 10px;
     font-size: 3rem;
+}
+
+.pacotes .pacotes-title{
+    width: 100%;
+    text-align: center;
+    margin:25px 0;
+    font-size: 3rem;
+}
+
+.pacotes {
+    background: #2f4575;
+    padding: 15px;
+}
+
+.pacotes .pacotes-card {
+    display: flex;
+    margin: auto;
+    max-width: 950px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pacotes .card-image {
+    width: 250px;
+    height: 200px;
+    border-radius: 24px 0 0 0;
+}
+
+.pacotes .card {
+    width: 250px;
+    height: 400px;
+    background: white;
+    border-radius: 24px 0;
+    margin: 25px;
+    position: relative;
 }
