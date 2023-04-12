@@ -183,7 +183,7 @@ header nav p {
 }
 
 .servicos .card svg:hover {
-    stroke: #1d61dd;
+    stroke: darkmagenta;
     transform: scale(1.1);
 }
 
