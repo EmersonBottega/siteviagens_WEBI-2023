@@ -27,7 +27,7 @@ button {
 
 header {
     background: no-repeat center/cover url("assets/tailandia.jpg");
-    height: calc(100ch - 100px);
+    height: calc(100ch - 10px);
 }
 
 header nav {
@@ -149,6 +149,8 @@ header nav p {
 }
 
 .servicos {
+    padding: 5px;
+    background-color: #2f4575f8;
     padding: 15px;
 }
 
@@ -201,11 +203,23 @@ header nav p {
 }
 
 .contatos {
-    height: 250px;
-    background: red;
-    margin: center;
+    padding: 15px;
+    height: 220px;
+    background: #2f4575c5;
 }
 
-.contatos .mail svg {
-    margin: center;
+.contatos p {
+    height: 50px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.contatos .contatos-geral {   
+    text-align: center;
+    font-size: 20px;
+    height: 50px;
+}
+
+.contatos .contatos-geral svg {
+    vertical-align: middle;
 }
